@@ -7,7 +7,7 @@
   "require": {},
   "require-dev": {},
   "autoload": {
-    "psr-3": {
+    "psr-4": {
       "App\\": "app//"
     }
   }
