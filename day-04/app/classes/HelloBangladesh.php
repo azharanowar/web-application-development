@@ -17,10 +17,13 @@ class HelloBangladesh
 
         /*
             * PHP Statements:
-                * Single Line Statement
-                * Conditional Statement
-                * Repeated Statement
+                * Single Line Statement ( $this->x = 20; )
+                * Conditional Statement ( IF, IF ELSE, IF ELSE IF, SWITCH )
+                * Repeated Statement ( FOR, WHILE, DO WHILE, FOREACH )
          */
+
+
+        // 1. Single Line Statement:
 
 
 
