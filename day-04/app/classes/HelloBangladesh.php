@@ -88,9 +88,12 @@ class HelloBangladesh
 
 //        Repeated Statements ( FOR, WHILE, DO WHILE, FOREACH )
 
-        for ($this->i = 0; $this->i <= 100; $this->i++) {
-            echo "Hello World!!!";
-            echo "<br>";
+//        for ($this->i = 10; $this->i <= 100; $this->i++) {
+//            echo "Hello World!!!<br>";
+//        }
+
+        for ($this->i = 30; $this->i >= 20; $this->i--) {
+            echo "$this->i<br>";
         }
 
     }
