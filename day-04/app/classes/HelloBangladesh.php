@@ -92,9 +92,23 @@ class HelloBangladesh
 //            echo "Hello World!!!<br>";
 //        }
 
-        for ($this->i = 30; $this->i >= 20; $this->i--) {
-            echo "$this->i<br>";
-        }
+//        for ($this->i = 30; $this->i >= 20; $this->i--) {
+//            echo "$this->i<br>";
+//        }
+
+
+//        $this->i = 0;
+//        while ($this->i <= 100) {
+//            echo $this->i . " ";
+//            $this->i++;
+//        }
+
+
+        $this->i = 0;
+        do{
+            echo "Hello World!!!<br>";
+            $this->i++;
+        } while ($this->i <= 10);
 
     }
 }
