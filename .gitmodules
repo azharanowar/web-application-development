@@ -1,3 +1,6 @@
 [submodule "day-01/php-practice-project"]
 	path = day-01/php-practice-project
 	url = https://github.com/azharanowar/php-practice-project.git
+[submodule "day-03/php-syntax-practice-project"]
+	path = day-03/php-syntax-practice-project
+	url = https://github.com/azharanowar/php-syntax-practice-project.git
