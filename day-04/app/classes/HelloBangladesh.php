@@ -23,17 +23,13 @@ class HelloBangladesh
          */
 
 
-        // 1. Single Line Statement:
+//      1. Single Line Statement:
+            // $this->x = 10;
+            // $this->y = 20;
+            // $this->z = 10;
+            // echo $this->z;
 
 
-
-        /*
-        $this->x = 20;
-        $this->y = 30;
-        $this->z = $this->x + $this->y;
-
-        echo $this->z;
-        */
 
         $this->x = 20;
         $this->y = 30;
