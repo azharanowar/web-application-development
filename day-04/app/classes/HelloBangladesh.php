@@ -36,15 +36,10 @@ class HelloBangladesh
         $this->z = 50;
 
 
-
-
 //        if ($this->x < $this->y) {
 //            $this->z = $this->x + $this->y;
 //            echo $this->z;
 //        }
-
-
-
 
 
 //        if ($this->x > $this->y) {
@@ -63,30 +58,31 @@ class HelloBangladesh
 //            echo $this->z;
 //        }
 
-        switch ($this->x) {
-            case 1 :
-                echo "1";
-                break;
-            case 2 :
-                echo "2";
-                break;
-            case 5 :
-                echo "5";
-                break;
-            case 10 :
-                echo "10";
-                break;
-            case 15 :
-                echo "15";
-                break;
-            case 20 :
-                echo "20";
-                break;
-            default :
-                echo "Default";
-                break;
 
-        }
+//        switch ($this->x) {
+//            case 1 :
+//                echo "1";
+//                break;
+//            case 2 :
+//                echo "2";
+//                break;
+//            case 5 :
+//                echo "5";
+//                break;
+//            case 10 :
+//                echo "10";
+//                break;
+//            case 15 :
+//                echo "15";
+//                break;
+//            case 20 :
+//                echo "20";
+//                break;
+//            default :
+//                echo "Default";
+//                break;
+//
+//        }
 
     }
 }
