@@ -6,7 +6,7 @@ namespace App\classes;
 
 class HelloBangladesh
 {
-    public $message, $x, $y, $z;
+    public $message, $x, $y, $z, $i;
     public function __construct() {
         $this->message = "Hello Bangladesh!!!";
     }
@@ -35,6 +35,7 @@ class HelloBangladesh
         $this->y = 30;
         $this->z = 50;
 
+//        Conditional Statements ( IF, IF ELSE, IF ELSE IF, SWITCH )
 
 //        if ($this->x < $this->y) {
 //            $this->z = $this->x + $this->y;
@@ -83,6 +84,14 @@ class HelloBangladesh
 //                break;
 //
 //        }
+
+
+//        Repeated Statements ( FOR, WHILE, DO WHILE, FOREACH )
+
+        for ($this->i = 0; $this->i <= 100; $this->i++) {
+            echo "Hello World!!!";
+            echo "<br>";
+        }
 
     }
 }
