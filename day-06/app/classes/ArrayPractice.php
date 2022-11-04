@@ -45,7 +45,13 @@ class ArrayPractice
 //        print_r($this->students);
 
         foreach ($this->students as $student) {
-            echo $student["name"];
+//            echo $student["name"];
+//            echo "<br>";
+
+            foreach ($student as $value) {
+                echo $value;
+                echo "<br>";
+            }
         }
     }
 
