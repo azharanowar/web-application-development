@@ -2,7 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use App\classes\HelloBangladesh;
+use app\classes\HelloBangladesh;
 
 $helloBangladesh = new HelloBangladesh();
 $helloBangladesh->index();

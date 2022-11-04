@@ -2,7 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use App\classes\HelloWorld;
+use app\classes\HelloWorld;
 
 
 $objHelloWorld = new HelloWorld();

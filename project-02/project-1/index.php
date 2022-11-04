@@ -2,7 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use App\classes\CountryMessage;
+use app\classes\CountryMessage;
 
 $objCountryMessage = new CountryMessage();
 $objCountryMessage->index("Bangladesh");
