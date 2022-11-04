@@ -1,0 +1,14 @@
+{
+  "name": "project-6/project-6",
+  "type": "project",
+  "description": "A simple php project with practicing array",
+  "license": "GPLv2",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
