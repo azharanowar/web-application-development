@@ -20,15 +20,18 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mx-auto me-5 mb-2 mb-lg-0">
+                                <ul class="navbar-nav mx-auto me-2 mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="action.php?page=home">Home</a>
+                                    </li>
                                     <?php foreach ($categories as $category) { ?>
                                         <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="action.php?page=category"><?php echo $category['name']; ?></a>
+                                            <a class="nav-link" aria-current="page" href="action.php?page=category&category_id=<?php echo $category['id']; ?>"><?php echo $category['name']; ?></a>
                                         </li>
                                     <?php } ?>
                                 </ul>
                                 <form class="d-flex" role="search">
-                                    <input class="form-control me-1 rounded-5" type="search" placeholder="Search" aria-label="Search">
+                                    <input class="form-control me-1 px-3 rounded-5" type="search" placeholder="Search" aria-label="Search">
                                     <button class="btn btn-outline-primary rounded-5" type="submit">Search</button>
                                 </form>
                             </div>
