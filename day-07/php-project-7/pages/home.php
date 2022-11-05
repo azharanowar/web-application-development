@@ -9,10 +9,26 @@
 </head>
 <body>
     <div align="center">
+        <br>
         <?php foreach ($categories as $category) { ?>
             <a href="#"><?php echo $category['name']; ?></a> ||
         <?php } ?>
-
+        <br>
+        <br>
+    </div>
+    <hr>
+    <div align="center">
+        <br>
+        <br>
+        <br>
+        <?php foreach ($blogs as $blog) { ?>
+            <img src="assets/images/<?php echo $blog['image']; ?>">
+            <a href="#"><h2><?php echo $blog['title']; ?></h2></a>
+            <p><?php echo $blog['description']?></p>
+            <hr>
+            <br>
+            <br>
+        <?php } ?>
     </div>
 </body>
 </html>
