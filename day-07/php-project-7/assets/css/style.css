@@ -1,0 +1,11 @@
+h1 {
+    background-color: red;
+    color: white;
+}
+
+.div {
+    width: 33.33%;
+    height: 600px;
+    background-color: lightgray;
+    padding: 10px;
+}

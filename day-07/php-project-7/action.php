@@ -13,5 +13,7 @@ $blogs = $blog->getAllBlogs();
 if (isset($_GET['page'])) {
     if ($_GET['page'] === 'home') {
         include 'pages/home.php';
+    } else if ($_GET['page'] === 'category') {
+        include 'pages/category.php';
     }
 }
