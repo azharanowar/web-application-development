@@ -8,11 +8,11 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>This is heading from home.php</h1>
+    <div align="center">
+        <?php foreach ($categories as $category) { ?>
+            <a href="#"><?php echo $category['name']; ?></a> ||
+        <?php } ?>
+
+    </div>
 </body>
 </html>
-
-<?php
-
-print_r($_GET)
-?>
