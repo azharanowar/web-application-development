@@ -1,0 +1,14 @@
+{
+  "name": "php-project-7/php-project-7",
+  "type": "project",
+  "description": "A simple php project with OOP",
+  "license": "",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
