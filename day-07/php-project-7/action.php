@@ -14,6 +14,9 @@ if (isset($_GET['page'])) {
     if ($_GET['page'] === 'home') {
         include 'pages/home.php';
     } else if ($_GET['page'] === 'category') {
+
+        $categoryId = $_GET['category_id'];
+        $blogs = $blog->getBlogsByCategoryId($categoryId);
         include 'pages/category.php';
     }
 }

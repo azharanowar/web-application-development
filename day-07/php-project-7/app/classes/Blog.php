@@ -4,7 +4,7 @@ namespace App\classes;
 
 class Blog
 {
-    public $blogs;
+    public $blogs, $data = [];
     public function __construct()
     {
         $this->blogs = [
@@ -76,5 +76,15 @@ class Blog
 
     public function getAllBlogs() {
         return $this->blogs;
+    }
+
+    public function getBlogsByCategoryId($categoryId) {
+        foreach ($this->blogs as $blog) {
+            if  ($blog['category_id'] == $categoryId) {
+                array_push($this->data, $blog);
+            }
+        }
+
+        return $this->data;
     }
 }

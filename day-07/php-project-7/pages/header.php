@@ -22,7 +22,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mx-auto me-2 mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="action.php?page=home">Home</a>
+                                        <a class="nav-link" aria-current="page" href="action.php?page=home">Home</a>
                                     </li>
                                     <?php foreach ($categories as $category) { ?>
                                         <li class="nav-item">
