@@ -11,8 +11,9 @@
                 </div>
                 <div class="row py-4">
                     <div class="col-md-12">
-                        <h1 class="py-1"><?php echo $postDetailedInformation['title']; ?></h1>
-                        <p class="text-muted"><?php echo $postDetailedInformation['short_description']; ?></p>
+                        <p><span><a href="action.php?page=home">Home</a></span> / <span><a href="action.php?page=category&id=<?php echo $postDetailedInformation['category_id']; ?>">Category</a></span></p>
+                        <h1 class="pb-1"><?php echo $postDetailedInformation['title']; ?></h1>
+                        <i class="text-muted"><?php echo $postDetailedInformation['short_description']; ?></i>
                         <img class="py-3" src="assets/images/posts/<?php echo $postDetailedInformation['image']; ?>">
                         <p><?php echo $postDetailedInformation['description']; ?></p>
                         <div class="text-center pb-3 pt-2">

@@ -2,6 +2,9 @@
 
 namespace App\classes;
 
+require_once "vendor/autoload.php";
+use App\classes\Category;
+
 class Post
 {
     public $post, $posts = [], $postsData = [];
@@ -140,6 +143,11 @@ class Post
     public function getPostDetailedInformationById($postId) {
         foreach ($this->posts as $post) {
             if ($post['id'] == $postId) {
+
+                $category = new Category();
+                $category = $category->getCategoryById($post['id']);
+
+                $post['category_name'] = $category['name'];
                 return $post;
             }
         }

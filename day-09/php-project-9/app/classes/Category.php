@@ -46,4 +46,12 @@ class Category
     public function getAllCategories() {
         return $this->categories;
     }
+
+    public function getCategoryById($categoryId) {
+        foreach ($this->categories as $category) {
+            if ($category['id'] == $categoryId) {
+                return $category;
+            }
+        }
+    }
 }
