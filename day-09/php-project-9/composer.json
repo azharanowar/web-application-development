@@ -1,0 +1,14 @@
+{
+  "name": "simple-newspaper-website/simple-newspaper-website",
+  "description": "A simple newspaper website with OOP PHP",
+  "type": "project",
+  "license": "GPLv2",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
