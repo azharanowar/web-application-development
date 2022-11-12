@@ -11,13 +11,13 @@
 <body>
     <header class="bg-dark">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <nav class="navbar navbar-expand-md navbar-dark py-3">
                 <a href="" class="navbar-brand text-uppercase fw-light text-muted"><span class="text-primary">Logo</span> Here</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainMenu">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a href="" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
