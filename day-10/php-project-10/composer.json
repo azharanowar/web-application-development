@@ -1,0 +1,14 @@
+{
+  "name": "php-project-10/php-project-10",
+  "description": "A simple php project with OOP",
+  "type": "project",
+  "license": "GPLv2",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
