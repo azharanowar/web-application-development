@@ -4,10 +4,10 @@ namespace App\classes;
 
 class Category
 {
-    public $category = [];
+    public $categories = [];
 
     public function __construct() {
-        $this->category = [
+        $this->categories = [
           0 => [
               'id'      =>  1,
               'name'    =>  "Electronics",
@@ -37,6 +37,14 @@ class Category
     }
 
     public function getAllCategories() {
-        return $this->category;
+        return $this->categories;
+    }
+
+    public function getCategoryById($categoryId) {
+        foreach ($this->categories as $category) {
+            if ($category['id'] == $categoryId) {
+                return $category;
+            }
+        }
     }
 }
