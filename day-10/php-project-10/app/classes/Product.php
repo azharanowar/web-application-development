@@ -4,7 +4,7 @@ namespace App\classes;
 
 class Product
 {
-    public $products = [];
+    public $products = [], $productsByCategory = [];
 
     public function __construct() {
         $this->products = [
@@ -94,6 +94,16 @@ class Product
 
     public function getAllProducts() {
         return $this->products;
+    }
+
+    public function getAllProductsByCategory($categoryId) {
+        foreach ($this->products as $product) {
+            if ($product['category_id'] == $categoryId) {
+                array_push($this->productsByCategory, $product);
+            }
+        }
+
+        return $this->productsByCategory;
     }
 
     public function getProductDetailsInfoById($productId) {
