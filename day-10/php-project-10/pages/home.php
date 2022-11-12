@@ -34,6 +34,80 @@
             </nav>
         </div>
     </header>
+    <main>
+        <section class="bg-light">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/1.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/2.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/3.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/4.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/5.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4">
+                        <div class="card h-100 bg-white">
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/6.webp" alt=""/>
+                            <div class="card-body">
+                                <h5 class="card-title">This is a card heading!!!</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
+                                <hr/>
+                                <a class="btn btn-primary py-2 w-100" href="">Lean More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
