@@ -24,9 +24,11 @@
                         <li class="nav-item dropdown">
                             <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="" class="dropdown-item">Service 1</a></li>
-                                <li class=""><a href="" class="dropdown-item">Service 2</a></li>
-                                <li class=""><a href="" class="dropdown-item">Service 3</a></li>
+                                <?php foreach ($categories as $category) { ?>
+                                    <div class="row">
+                                        <li class=""><a href="action.php?page=category&id=<?php echo $category['id']; ?>" class="dropdown-item"><?php echo $category['name']; ?></a></li>
+                                    </div>
+                                <?php } ?>
                             </ul>
                         </li>
                     </ul>
@@ -73,7 +75,7 @@
                     </div>
                     <div class="col-md-4 pb-4">
                         <div class="card h-100 bg-white">
-                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/4.webp" alt=""/>
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/14.webp" alt=""/>
                             <div class="card-body">
                                 <h5 class="card-title">This is a card heading!!!</h5>
                                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
@@ -95,7 +97,7 @@
                     </div>
                     <div class="col-md-4 pb-4">
                         <div class="card h-100 bg-white">
-                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/6.webp" alt=""/>
+                            <img class="card-img img-fluid card-img-top rounded-0 rounded-top" src="assets/images/12.webp" alt=""/>
                             <div class="card-body">
                                 <h5 class="card-title">This is a card heading!!!</h5>
                                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim labore molestiae quibusdam sed sit?</p>
