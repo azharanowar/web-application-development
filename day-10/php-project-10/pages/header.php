@@ -12,13 +12,13 @@
     <header class="bg-dark pb-4">
         <div class="container py-3">
             <nav class="navbar navbar-expand-md navbar-dark">
-                <a href="" class="navbar-brand text-uppercase fw-light text-muted"><span class="text-primary">Logo</span> Here</a>
+                <a href="action.php?page=home" class="navbar-brand text-uppercase fw-light text-muted"><span class="text-primary">Logo</span> Here</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainMenu">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="action.php?page=home" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                         <li class="nav-item dropdown">
