@@ -24,11 +24,12 @@
                         <li class="nav-item dropdown">
                             <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu">
-                                <?php foreach ($categories as $category) { ?>
-                                    <div class="row">
-                                        <li class=""><a href="action.php?page=category&id=<?php echo $category['id']; ?>" class="dropdown-item"><?php echo $category['name']; ?></a></li>
-                                    </div>
-                                <?php } ?>
+                                <li class="">
+                                    <a href="" class="dropdown-item">Services 1</a>
+                                    <a href="" class="dropdown-item">Services 2</a>
+                                    <a href="" class="dropdown-item">Services 3</a>
+                                    <a href="" class="dropdown-item">Services 4</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -43,33 +44,35 @@
                 <div class="col-md-8 mx-auto">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="card-title text-center py-2">Make Full Name Program</h5>
+                            <h5 class="card-title text-center py-2">Full Name Generator</h5>
                         </div>
                         <div class="card-body">
-                            <div class="row my-3">
-                                <label class="col-md-3">First Name: </label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control py-2" placeholder="Enter your first name here..."/>
+                            <form action="#" method="post">
+                                <div class="row my-3">
+                                    <label class="col-md-3">First Name: </label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="first_name" class="form-control py-2" placeholder="Enter your first name here..."/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row my-3">
-                                <label class="col-md-3">Last Name: </label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control py-2" placeholder="Enter your last name here..."/>
+                                <div class="row my-3">
+                                    <label class="col-md-3">Last Name: </label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="last_name" class="form-control py-2" placeholder="Enter your last name here..."/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row my-3">
-                                <label class="col-md-3">Full Name: </label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control py-2" placeholder="You full name will show here..." disabled/>
+                                <div class="row my-3">
+                                    <label class="col-md-3">Full Name: </label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="full_name" class="form-control py-2" placeholder="Your full name will show here..." disabled/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row my-3">
-                                <label class="col-md-3"></label>
-                                <div class="col-md-9">
-                                    <input type="button" class="form-control btn btn-success px-5 py-2 fw-semibold" value="Make Full Name"/>
+                                <div class="row my-3">
+                                    <label class="col-md-3"></label>
+                                    <div class="col-md-9">
+                                        <input type="submit" class="form-control btn btn-success px-5 py-2 fw-semibold text-uppercase" value="Make Full Name"/>
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
